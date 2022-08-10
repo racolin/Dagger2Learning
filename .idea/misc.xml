@@ -4,6 +4,8 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/java/Dagger/app/src/main/res/layout/activity_main.xml" value="0.1265625" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/word_item.xml" value="0.33958333333333335" />
       </map>
     </option>
   </component>

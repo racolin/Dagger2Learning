@@ -1,15 +1,13 @@
 package github.racolin.dagger.dagger.basic;
 
-import javax.inject.Singleton;
-
-import dagger.Component;
 import github.racolin.dagger.MainActivity;
+import github.racolin.dagger.dagger.practice_1.WordViewModel;
 
-@Singleton
-@Component(modules = {ThirdModule.class, SubComponentModule.class})
+//@Component(modules = {ThirdModule.class, SubComponentModule.class})
 public interface ApplicationGraph {
     UserRepository userRepository();
     UserRemoteData userRemoteData();
     void inject(MainActivity mainActivity);
     SubComponentGraph.Factory subComponentGraph();
+    WordViewModel userViewModel();
 }
